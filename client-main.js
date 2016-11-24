@@ -2,5 +2,5 @@
 import "./client/startup";
 
 // Make analytics available as an export
-import analytics from "./vendor/analytics.min.js";
+const analytics = require("analytics.js");
 export { analytics };
